@@ -6,6 +6,14 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const handleCount =() => {
+    setCount(count++)
+  }
+
+  const handleNewCount =() => {
+    setCount(count++)
+  }
+
   return (
     <>
       <div>
