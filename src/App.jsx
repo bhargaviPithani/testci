@@ -6,6 +6,35 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const handleCount =() => {
+    setCount(count++)
+  }
+
+  const handleNewCount =() => {
+    setCount(count++)
+  }
+  
+  function countOccurrencesOfValue2(array) {
+    let count = 0;
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    count = 0
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === 2) {
+            count++;
+        }
+    }
+    return count;
+}
   return (
     <>
       <div>
